@@ -1,12 +1,13 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    align-items: center; /* Centra verticalmente */
+
 }
 
 nav {
-    background-color: #333;
+    background-color: rgb(61, 47, 212);
     color: white;
-    padding: 10px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,16 +17,21 @@ nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    padding: 15px;
 }
 
 nav a:hover {
-    
+    background-color:rgb(46, 31, 209);
 }
 
 .logo {
     margin-left: 20px;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.logo img {
+    height: 40px;
 }
 
 .menu {

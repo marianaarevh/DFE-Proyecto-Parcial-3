@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 
 @NgModule({
@@ -11,7 +11,10 @@ import { NavbarComponent } from './navbar/navbar.component';
     NavbarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterOutlet,
+    RouterLink,
+    RouterLinkActive,
   ],
   exports: [
     FooterComponent,
