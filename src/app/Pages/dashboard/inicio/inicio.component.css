@@ -1,0 +1,51 @@
+header {
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    padding-bottom: 130px;     
+}
+
+section {
+    margin: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+}
+
+.stats div {
+    width: 25%;
+    min-width: 150px;
+    background-color: #d33c3c;
+    border-radius: 100px;
+    padding: 30px;
+    margin: 3px;
+}
+
+.stats h1 {
+    font-size: 2.1rem;
+}
+
+.stats p {
+    font-size: 1.2rem;
+}
+.about-us,
+.location {
+    background-color: #ffffffc6;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.about-us h2,
+.location h2{
+    font-size: 2rem;
+    color: rgb(61, 47, 212);
+    margin: 0;
+}
