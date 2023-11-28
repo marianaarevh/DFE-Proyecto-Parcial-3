@@ -1,0 +1,13 @@
+h1{
+text-align: center;
+color: #333;
+}
+
+.resumen-container {
+    background-color: #d33c3c;
+    margin: 33px;
+    padding: 1px;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+  }

@@ -18,7 +18,7 @@ export const listaVideojuegosDummy: Videojuego[] = [
     {
       id: 1,
       titulo: "Just Dance",
-      imagen:"justdance.jpg",
+      imagen:"1.png",
       estatus: VideojuegoEstatus.Disponible,
       notas: "Gran videojuego",
       precioVenta: 1249.00,
@@ -28,7 +28,7 @@ export const listaVideojuegosDummy: Videojuego[] = [
     {
         id: 2,
         titulo: "The Legend of Zelda: Breath of the Wild",
-        imagen: "zelda.jpg",
+        imagen: "2.jpg",
         estatus: VideojuegoEstatus.Disponible,
         notas: "Increíble aventura épica",
         precioVenta: 1999.00,
@@ -37,8 +37,8 @@ export const listaVideojuegosDummy: Videojuego[] = [
       },
       {
         id: 3,
-        titulo: "FIFA 22",
-        imagen: "fifa22.jpg",
+        titulo: "FIFA 23",
+        imagen: "3.jpg",
         estatus: VideojuegoEstatus.Agotado,
         notas: "El mejor juego de fútbol",
         precioVenta: 1499.00,
@@ -48,7 +48,7 @@ export const listaVideojuegosDummy: Videojuego[] = [
       {
         id: 4,
         titulo: "Super Mario Odyssey",
-        imagen: "mario.jpg",
+        imagen: "4.jpeg",
         estatus: VideojuegoEstatus.Disponible,
         notas: "Aventuras coloridas con Mario",
         precioVenta: 1799.00,

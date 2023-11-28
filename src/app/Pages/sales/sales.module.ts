@@ -16,7 +16,7 @@ import { PadreComponent } from './padre/padre.component';
     CommonModule
   ],
   exports: [
-    
+    PadreComponent
   ]
 })
 export class SalesModule { }
