@@ -8,11 +8,17 @@ import { DatosService } from 'src/app/services/datos.service';
   styleUrls: ['./padre.component.css']
 })
 export class PadreComponent {
-
-  listadoJuegos: Videojuego[] = listaVideojuegosDummy;
+  datos!:any;
+  //listadoJuegos: Videojuego[] = listaVideojuegosDummy;
   mensaje: string = "Numero de Registros: "
 
   constructor(private datosserv: DatosService) {
+  }
 
+  ngOnInit(){
+    this.datosserv.getAll("Videojuego").subscribe((res)=>{
+      this.datos = res;
+      console.log(res);
+    });
   }
 }

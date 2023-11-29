@@ -9,7 +9,8 @@ import { listaVideojuegosDummy } from 'src/app/models/videojuego';
   styleUrls: ['./tabla.component.css']
 })
 export class TablaComponent {
-  @Input() datos: Videojuego[] = []
+  @Input() datos!:any[];
+  //@Input() datos: Videojuego[] = []
 
   rutaImagen = '../../../../assets/img/videojuegos/';
 
