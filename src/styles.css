@@ -4,3 +4,8 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+
+main{
+    margin-top: 70px;
+    padding-bottom: 80px;
+}

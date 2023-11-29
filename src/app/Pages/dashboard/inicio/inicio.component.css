@@ -1,7 +1,6 @@
-header {
-    color: #333;
+h1{
     text-align: center;
-    padding: 10px;
+    color: #333;
 }
 
 body {
@@ -30,6 +29,7 @@ section {
 
 .stats h1 {
     font-size: 2.1rem;
+    color: #fff;
 }
 
 .stats p {

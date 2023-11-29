@@ -5,6 +5,7 @@ import { InicioComponent } from './Pages/dashboard/inicio/inicio.component';
 import { PadreComponent } from './Pages/sales/padre/padre.component'
 
 const routes: Routes = [
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: InicioComponent },
   { path: 'sales', component: PadreComponent }
 ];
