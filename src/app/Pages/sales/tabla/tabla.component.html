@@ -15,7 +15,7 @@
   
       <tbody>
   
-        <tr *ngFor="let juego of listadoJuegos">
+        <tr *ngFor="let juego of datos">
           <td> <strong>{{ juego.id }}</strong> </td>
           <td> <img [src]="rutaImagen + juego.imagen" [alt]="juego.id"> </td>
           <td>{{ juego.titulo }}</td>
@@ -32,6 +32,6 @@
   
   </div>
   
-  <div class="message" *ngIf="listadoJuegos.length === 0">
+  <div class="message" *ngIf="datos.length === 0">
     <p>No se encontraron registros...</p>
   </div>

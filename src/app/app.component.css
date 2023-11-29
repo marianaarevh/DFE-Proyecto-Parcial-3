@@ -2,9 +2,9 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body {
-    background-color: #e8ecffa9;
-    min-height: 100vh;
+main{
+    padding-bottom: 150px;
+    
 }
 
 

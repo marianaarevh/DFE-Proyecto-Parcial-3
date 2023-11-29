@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Videojuego } from 'src/app/models/videojuego';
+
 
 @Component({
   selector: 'app-resumen',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./resumen.component.css']
 })
 export class ResumenComponent {
+@Input() mensaje: string = ""
+@Input() datos: Videojuego[] = []
 
 }
